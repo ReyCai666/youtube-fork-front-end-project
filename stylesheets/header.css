@@ -11,6 +11,7 @@
     border-bottom-style: solid;
     border-bottom-color: rgb(224, 224, 224);
     border-bottom-width: 1px;
+    z-index: 100;
 }
 
 .left-section {
@@ -102,7 +103,25 @@
     height: 22px;
 }
 
+.notification-icon-box {
+    position: relative;
+}
+
+.notification-amount {
+    position: absolute;
+    top: 0px;
+    right: -4px;
+    background-color: rgb(197, 1, 1);
+    color: white;
+    font-size: 9px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 17px;
+}
+
+
+
 .notifications-icon {
+    margin-top: 2px;
     height: 22px;
 }
 
